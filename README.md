@@ -30,11 +30,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0359-logger-rate-limiter](https://github.com/lee0721/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/lee0721/LeetCode/tree/master/0362-design-hit-counter) |
+| [0933-number-of-recent-calls](https://github.com/lee0721/LeetCode/tree/master/0933-number-of-recent-calls) |
 ## Data Stream
 |  |
 | ------- |
 | [0359-logger-rate-limiter](https://github.com/lee0721/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/lee0721/LeetCode/tree/master/0362-design-hit-counter) |
+| [0933-number-of-recent-calls](https://github.com/lee0721/LeetCode/tree/master/0933-number-of-recent-calls) |
 ## Binary Search
 |  |
 | ------- |
@@ -43,4 +45,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0362-design-hit-counter](https://github.com/lee0721/LeetCode/tree/master/0362-design-hit-counter) |
+| [0933-number-of-recent-calls](https://github.com/lee0721/LeetCode/tree/master/0933-number-of-recent-calls) |
 <!---LeetCode Topics End-->
