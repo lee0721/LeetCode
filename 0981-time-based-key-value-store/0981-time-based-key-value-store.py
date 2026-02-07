@@ -1,27 +1,33 @@
-from sortedcontainers import SortedDict
+# 981 Time Based Key-Value Store
+from bisect import bisect_right
+from collections import defaultdict
+from typing import DefaultDict, List
 
 class TimeMap:
     def __init__(self):
-        self.key_time_map = {}
+        # key -> sorted timestamps / values (timestamps are appended in increasing order)
+        self.times: DefaultDict[str, List[int]] = defaultdict(list)
+        self.values: DefaultDict[str, List[str]] = defaultdict(list)
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        # If the 'key' does not exist in dictionary.
-        if not key in self.key_time_map:
-            self.key_time_map[key] = SortedDict()
-            
-        # Store '(timestamp, value)' pair in 'key' bucket.
-        self.key_time_map[key][timestamp] = value
-        
+        # Assumption (LeetCode): timestamps for the same key are non-decreasing
+        self.times[key].append(timestamp)
+        self.values[key].append(value)
 
     def get(self, key: str, timestamp: int) -> str:
-        # If the 'key' does not exist in dictionary we will return empty string.
-        if not key in self.key_time_map:
+        if key not in self.times:
             return ""
-        
-        it = self.key_time_map[key].bisect_right(timestamp)
-        # If iterator points to first element it means, no time <= timestamp exists.
-        if it == 0:
+        ts_list = self.times[key]
+        idx = bisect_right(ts_list, timestamp) - 1  # last ts <= timestamp
+        if idx < 0:
             return ""
-        
-        # Return value stored at previous position of current iterator.
-        return self.key_time_map[key].peekitem(it - 1)[1]
+        return self.values[key][idx]
+
+"""Evaluate:
+TC:
+- set: O(1) amortized (append)
+- get: O(log n) per query, where n = number of versions for that key (binary search)
+
+SC:
+- O(total_set_calls) to store all (timestamp, value) versions
+"""
