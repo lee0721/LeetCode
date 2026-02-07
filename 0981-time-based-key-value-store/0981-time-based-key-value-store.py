@@ -1,33 +1,33 @@
-# 981 Time Based Key-Value Store
-from bisect import bisect_right
-from collections import defaultdict
-from typing import DefaultDict, List
-
 class TimeMap:
     def __init__(self):
-        # key -> sorted timestamps / values (timestamps are appended in increasing order)
-        self.times: DefaultDict[str, List[int]] = defaultdict(list)
-        self.values: DefaultDict[str, List[str]] = defaultdict(list)
+        self.key_time_map = {}
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        # Assumption (LeetCode): timestamps for the same key are non-decreasing
-        self.times[key].append(timestamp)
-        self.values[key].append(value)
+        # If the 'key' does not exist in dictionary.
+        if not key in self.key_time_map:
+            self.key_time_map[key] = []
+            
+        # Store '(timestamp, value)' pair in 'key' bucket.
+        self.key_time_map[key].append([ timestamp, value ])
+        
 
     def get(self, key: str, timestamp: int) -> str:
-        if key not in self.times:
+        # If the 'key' does not exist in dictionary we will return empty string.
+        if not key in self.key_time_map:
             return ""
-        ts_list = self.times[key]
-        idx = bisect_right(ts_list, timestamp) - 1  # last ts <= timestamp
-        if idx < 0:
+        
+        if timestamp < self.key_time_map[key][0][0]:
             return ""
-        return self.values[key][idx]
+        
+        left = 0
+        right = len(self.key_time_map[key])
+        
+        while left < right:
+            mid = (left + right) // 2
+            if self.key_time_map[key][mid][0] <= timestamp:
+                left = mid + 1
+            else:
+                right = mid
 
-"""Evaluate:
-TC:
-- set: O(1) amortized (append)
-- get: O(log n) per query, where n = number of versions for that key (binary search)
-
-SC:
-- O(total_set_calls) to store all (timestamp, value) versions
-"""
+        # If iterator points to first element it means, no time <= timestamp exists.
+        return "" if right == 0 else self.key_time_map[key][right - 1][1]
