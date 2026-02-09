@@ -16,6 +16,6 @@ class Solution:
             if maxheap:
                 neg_c = heapq.heappop(maxheap)
                 neg_c += 1
-                if neg_c != 0:
+                if neg_c < 0:
                     q.append((time+n+1, neg_c))
         return time
