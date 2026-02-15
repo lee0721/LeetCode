@@ -10,3 +10,4 @@ class Solution:
             for num in buckets[freq]:
                 res.append(num)
                 if len(res) == k: return res
+        return res
