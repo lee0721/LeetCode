@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/lee0721/LeetCode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/lee0721/LeetCode/tree/master/0217-contains-duplicate) |
 | [0362-design-hit-counter](https://github.com/lee0721/LeetCode/tree/master/0362-design-hit-counter) |
 | [0621-task-scheduler](https://github.com/lee0721/LeetCode/tree/master/0621-task-scheduler) |
@@ -14,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/lee0721/LeetCode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/lee0721/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
 | [0359-logger-rate-limiter](https://github.com/lee0721/LeetCode/tree/master/0359-logger-rate-limiter) |
@@ -24,12 +26,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/lee0721/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
 | [0621-task-scheduler](https://github.com/lee0721/LeetCode/tree/master/0621-task-scheduler) |
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
 | [0535-encode-and-decode-tinyurl](https://github.com/lee0721/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0981-time-based-key-value-store](https://github.com/lee0721/LeetCode/tree/master/0981-time-based-key-value-store) |
