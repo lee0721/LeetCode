@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/lee0721/LeetCode/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/lee0721/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/lee0721/LeetCode/tree/master/0217-contains-duplicate) |
 | [0271-encode-and-decode-strings](https://github.com/lee0721/LeetCode/tree/master/0271-encode-and-decode-strings) |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/lee0721/LeetCode/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/lee0721/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/lee0721/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
@@ -103,4 +105,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/lee0721/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/lee0721/LeetCode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
