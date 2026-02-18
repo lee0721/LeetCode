@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/lee0721/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0359-logger-rate-limiter](https://github.com/lee0721/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0535-encode-and-decode-tinyurl](https://github.com/lee0721/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
+| [0567-permutation-in-string](https://github.com/lee0721/LeetCode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/lee0721/LeetCode/tree/master/0621-task-scheduler) |
 | [0981-time-based-key-value-store](https://github.com/lee0721/LeetCode/tree/master/0981-time-based-key-value-store) |
 | [3408-design-task-manager](https://github.com/lee0721/LeetCode/tree/master/3408-design-task-manager) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
 | [0271-encode-and-decode-strings](https://github.com/lee0721/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0535-encode-and-decode-tinyurl](https://github.com/lee0721/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
+| [0567-permutation-in-string](https://github.com/lee0721/LeetCode/tree/master/0567-permutation-in-string) |
 | [0981-time-based-key-value-store](https://github.com/lee0721/LeetCode/tree/master/0981-time-based-key-value-store) |
 ## Design
 |  |
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/lee0721/LeetCode/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/lee0721/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0567-permutation-in-string](https://github.com/lee0721/LeetCode/tree/master/0567-permutation-in-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -129,4 +132,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/lee0721/LeetCode/tree/master/0042-trapping-rain-water) |
+## Sliding Window
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/lee0721/LeetCode/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
