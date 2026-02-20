@@ -1,29 +1,33 @@
 class Solution:
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        if len(nums1) > len(nums2):
-            nums2, nums1 = nums1, nums2
+    def findMedianSortedArrays(
+        self, nums1: List[int], nums2: List[int]
+    ) -> float:
         m, n = len(nums1), len(nums2)
-        total = m+n
-        half = (total+1)//2
+        p1, p2 = 0, 0
 
-        l, r = 0, m
-        NEG_INF = float("-inf")
-        POS_INF = float("inf")
-        while l <= r:
-            i = (l+r)//2
-            j = half - i
-
-            left1 = nums1[i - 1] if i > 0 else NEG_INF
-            right1 = nums1[i] if i < m else POS_INF
-            left2 = nums2[j - 1] if j > 0 else NEG_INF
-            right2 = nums2[j] if j < n else POS_INF
-
-            if left1 <= right2 and left2 <= right1:
-                if total % 2 == 1:
-                    return float(max(left1, left2))
-                return (max(left1, left2) + min(right1, right2)) / 2.0
-
-            if left1 > right2:
-                r = i - 1
+        # Get the smaller value between nums1[p1] and nums2[p2].
+        def get_min():
+            nonlocal p1, p2
+            if p1 < m and p2 < n:
+                if nums1[p1] < nums2[p2]:
+                    ans = nums1[p1]
+                    p1 += 1
+                else:
+                    ans = nums2[p2]
+                    p2 += 1
+            elif p2 == n:
+                ans = nums1[p1]
+                p1 += 1
             else:
-                l = i + 1
+                ans = nums2[p2]
+                p2 += 1
+            return ans
+
+        if (m + n) % 2 == 0:
+            for _ in range((m + n) // 2 - 1):
+                _ = get_min()
+            return (get_min() + get_min()) / 2
+        else:
+            for _ in range((m + n) // 2):
+                _ = get_min()
+            return get_min()
