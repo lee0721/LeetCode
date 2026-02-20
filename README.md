@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/lee0721/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/lee0721/LeetCode/tree/master/0011-container-with-most-water) |
+| [0033-search-in-rotated-sorted-array](https://github.com/lee0721/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/lee0721/LeetCode/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/lee0721/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/lee0721/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0362-design-hit-counter](https://github.com/lee0721/LeetCode/tree/master/0362-design-hit-counter) |
 | [0981-time-based-key-value-store](https://github.com/lee0721/LeetCode/tree/master/0981-time-based-key-value-store) |
 ## Queue
