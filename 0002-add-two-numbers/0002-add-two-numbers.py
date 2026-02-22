@@ -1,7 +1,7 @@
 # Definition for singly-linked list.
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        dummy = ListNode(0)
+        dummy = ListNode()
         cur = dummy
         carry = 0
 
