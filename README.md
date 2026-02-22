@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/lee0721/LeetCode/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/lee0721/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0271-encode-and-decode-strings](https://github.com/lee0721/LeetCode/tree/master/0271-encode-and-decode-strings) |
+| [0287-find-the-duplicate-number](https://github.com/lee0721/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/lee0721/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0362-design-hit-counter](https://github.com/lee0721/LeetCode/tree/master/0362-design-hit-counter) |
 | [0621-task-scheduler](https://github.com/lee0721/LeetCode/tree/master/0621-task-scheduler) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/lee0721/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/lee0721/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/lee0721/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0362-design-hit-counter](https://github.com/lee0721/LeetCode/tree/master/0362-design-hit-counter) |
 | [0981-time-based-key-value-store](https://github.com/lee0721/LeetCode/tree/master/0981-time-based-key-value-store) |
 ## Queue
@@ -138,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/lee0721/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/lee0721/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/lee0721/LeetCode/tree/master/0143-reorder-list) |
+| [0287-find-the-duplicate-number](https://github.com/lee0721/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/lee0721/LeetCode/tree/master/0567-permutation-in-string) |
 ## Dynamic Programming
 |  |
@@ -185,4 +188,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/lee0721/LeetCode/tree/master/0002-add-two-numbers) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/lee0721/LeetCode/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
