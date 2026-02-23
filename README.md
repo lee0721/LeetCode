@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/lee0721/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/lee0721/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/lee0721/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/lee0721/LeetCode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/lee0721/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/lee0721/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/lee0721/LeetCode/tree/master/0146-lru-cache) |
 | [0271-encode-and-decode-strings](https://github.com/lee0721/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0359-logger-rate-limiter](https://github.com/lee0721/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/lee0721/LeetCode/tree/master/0362-design-hit-counter) |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/lee0721/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/lee0721/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/lee0721/LeetCode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/lee0721/LeetCode/tree/master/0146-lru-cache) |
 ## Recursion
 |  |
 | ------- |
@@ -192,4 +195,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/lee0721/LeetCode/tree/master/0287-find-the-duplicate-number) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/lee0721/LeetCode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
