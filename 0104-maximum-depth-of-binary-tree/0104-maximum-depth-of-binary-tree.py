@@ -6,7 +6,14 @@ class TreeNode:
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if root is None: return 0
-        else:
-            left_height = self.maxDepth(root.left)
-            right_height = self.maxDepth(root.right)
-            return max(left_height, right_height) + 1
+        
+        q = deque([root])
+        depth = 0
+        while q:
+            level_size = len(q)
+            for _ in range(level_size):
+                node = q.popleft()
+                if node.left: q.append(node.left)
+                if node.right: q.append(node.right)
+            depth += 1
+        return depth
