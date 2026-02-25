@@ -4,13 +4,14 @@ class TreeNode:
         self.left = left
         self.right = right
 class Solution:
-    def height(self, root: TreeNode) -> int:
-        if not root: return -1
-        return 1 + max(self.height(root.left), self.height(root.right))
+    def dfs(self, root: TreeNode) -> (bool, int):
+        if not root: return True, -1
+        leftIsBalanced, leftHeight = self.dfs(root.left)
+        if not leftIsBalanced: return False, 0
+        rightIsBalanced, rightHeight = self.dfs(root.right)
+        if not rightIsBalanced: return False, 0
+
+        return (abs(leftHeight - rightHeight) < 2), 1 + max(leftHeight, rightHeight)
+
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
-        if not root: return True
-        left_h = self.height(root.left)
-        right_h = self.height(root.right)
-        if abs(left_h - right_h) < 2 and self.isBalanced(root.right) and self.isBalanced(root.left):
-            return True
-        return False
+        return self.dfs(root)[0]
