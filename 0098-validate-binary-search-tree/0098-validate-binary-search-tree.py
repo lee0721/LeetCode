@@ -5,12 +5,14 @@ class TreeNode:
         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        def inorder(node):
-            if not node: return True
-            if not inorder(node.left): return False
-            if node.val <= self.prev: return False
-            self.prev = node.val
-            return inorder(node.right)
+        stack, prev = [], float("-inf")
+        while stack or root:
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
 
-        self.prev = float("-inf")
-        return inorder(root)
+            if root.val <= prev: return False
+            prev = root.val
+            root = root.right
+        return True
