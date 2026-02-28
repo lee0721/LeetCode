@@ -5,8 +5,12 @@ class TreeNode:
         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        def validate(node: Optional[TreeNode], low:float, high: float) -> bool:
-            if not node: return True
+        if not root: return True
+        stack = [(root, float("-inf"), float("inf"))]
+        while stack:
+            node, low, high = stack.pop()
+            if not node: continue
             if not (low < node.val < high): return False
-            return validate(node.left, low, node.val) and validate(node.right, node.val, high)
-        return validate(root, float("-inf"), float("inf"))  # initialize root bounds to (-∞, +∞) since root has no ancestors; allows any valid int value, then bounds tighten down the tree
+            stack.append((node.left, low, node.val))
+            stack.append((node.right, node.val, high))
+        return True
