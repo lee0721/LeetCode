@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/lee0721/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/lee0721/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
+| [0295-find-median-from-data-stream](https://github.com/lee0721/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/lee0721/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/lee0721/LeetCode/tree/master/0621-task-scheduler) |
 | [0853-car-fleet](https://github.com/lee0721/LeetCode/tree/master/0853-car-fleet) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/lee0721/LeetCode/tree/master/0146-lru-cache) |
 | [0271-encode-and-decode-strings](https://github.com/lee0721/LeetCode/tree/master/0271-encode-and-decode-strings) |
+| [0295-find-median-from-data-stream](https://github.com/lee0721/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/lee0721/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/lee0721/LeetCode/tree/master/0355-design-twitter) |
 | [0359-logger-rate-limiter](https://github.com/lee0721/LeetCode/tree/master/0359-logger-rate-limiter) |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/lee0721/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/lee0721/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/lee0721/LeetCode/tree/master/0362-design-hit-counter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/lee0721/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -111,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/lee0721/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/lee0721/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/lee0721/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0295-find-median-from-data-stream](https://github.com/lee0721/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/lee0721/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/lee0721/LeetCode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/lee0721/LeetCode/tree/master/0621-task-scheduler) |
@@ -169,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/lee0721/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/lee0721/LeetCode/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/lee0721/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0295-find-median-from-data-stream](https://github.com/lee0721/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0567-permutation-in-string](https://github.com/lee0721/LeetCode/tree/master/0567-permutation-in-string) |
 ## Dynamic Programming
 |  |
