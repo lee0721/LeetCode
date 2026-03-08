@@ -6,8 +6,7 @@ class Solution:
         return self.output
 
     def backtrack(self, first, curr, nums):
-        # Add the current subset to the output
-        self.output.append(curr[:])
+        self.output.append(curr.copy()) # Add the current subset to the output
         # Generate subsets starting from the current index
         for i in range(first, self.n):
             curr.append(nums[i])
