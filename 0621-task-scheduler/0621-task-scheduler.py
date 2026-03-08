@@ -5,10 +5,10 @@ class Solution:
         heapq.heapify(maxheap)
 
         time = 0
-        cooldown = deque()
+        cooldown = deque() # (release_time, neg_cnt, task)
         while maxheap or cooldown:
             time += 1
-            while cooldown and cooldown[0][0] == time:
+            while cooldown and cooldown[0][0] <= time:
                 _, neg_cnt, task = cooldown.popleft()
                 heapq.heappush(maxheap, (neg_cnt, task))
             if maxheap:
