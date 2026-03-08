@@ -8,7 +8,7 @@ class Solution:
         cooldown = deque()
         while maxheap or cooldown:
             time += 1
-            if cooldown and cooldown[0][0] == time:
+            while cooldown and cooldown[0][0] == time:
                 _, neg_cnt, task = cooldown.popleft()
                 heapq.heappush(maxheap, (neg_cnt, task))
             if maxheap:
