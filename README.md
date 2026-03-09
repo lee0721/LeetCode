@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/lee0721/LeetCode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/lee0721/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/lee0721/LeetCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/lee0721/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/lee0721/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Stack
@@ -325,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/lee0721/LeetCode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/lee0721/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/lee0721/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/lee0721/LeetCode/tree/master/0046-permutations) |
