@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/lee0721/LeetCode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/lee0721/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/lee0721/LeetCode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/lee0721/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/lee0721/LeetCode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/lee0721/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/lee0721/LeetCode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/lee0721/LeetCode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/lee0721/LeetCode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/lee0721/LeetCode/tree/master/0079-word-search) |
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
 | [0271-encode-and-decode-strings](https://github.com/lee0721/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/lee0721/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/lee0721/LeetCode/tree/master/0036-valid-sudoku) |
+| [0079-word-search](https://github.com/lee0721/LeetCode/tree/master/0079-word-search) |
 ## Two Pointers
 |  |
 | ------- |
@@ -273,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/lee0721/LeetCode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/lee0721/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/lee0721/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/lee0721/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -332,5 +336,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/lee0721/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/lee0721/LeetCode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/lee0721/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/lee0721/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/lee0721/LeetCode/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
