@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/lee0721/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/lee0721/LeetCode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/lee0721/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0212-word-search-ii](https://github.com/lee0721/LeetCode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/lee0721/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/lee0721/LeetCode/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/lee0721/LeetCode/tree/master/0239-sliding-window-maximum) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/lee0721/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0208-implement-trie-prefix-tree](https://github.com/lee0721/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/lee0721/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/lee0721/LeetCode/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/lee0721/LeetCode/tree/master/0242-valid-anagram) |
 | [0271-encode-and-decode-strings](https://github.com/lee0721/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/lee0721/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/lee0721/LeetCode/tree/master/0036-valid-sudoku) |
 | [0079-word-search](https://github.com/lee0721/LeetCode/tree/master/0079-word-search) |
+| [0212-word-search-ii](https://github.com/lee0721/LeetCode/tree/master/0212-word-search-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -352,9 +355,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/lee0721/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/lee0721/LeetCode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/lee0721/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/lee0721/LeetCode/tree/master/0212-word-search-ii) |
 ## Trie
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/lee0721/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/lee0721/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/lee0721/LeetCode/tree/master/0212-word-search-ii) |
 <!---LeetCode Topics End-->
