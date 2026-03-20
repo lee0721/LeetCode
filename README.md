@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/lee0721/LeetCode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/lee0721/LeetCode/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/lee0721/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0743-network-delay-time](https://github.com/lee0721/LeetCode/tree/master/0743-network-delay-time) |
 | [0973-k-closest-points-to-origin](https://github.com/lee0721/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/lee0721/LeetCode/tree/master/1046-last-stone-weight) |
 | [3408-design-task-manager](https://github.com/lee0721/LeetCode/tree/master/3408-design-task-manager) |
@@ -327,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/lee0721/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/lee0721/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/lee0721/LeetCode/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/lee0721/LeetCode/tree/master/0743-network-delay-time) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -347,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/lee0721/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0684-redundant-connection](https://github.com/lee0721/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/lee0721/LeetCode/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/lee0721/LeetCode/tree/master/0743-network-delay-time) |
 | [0994-rotting-oranges](https://github.com/lee0721/LeetCode/tree/master/0994-rotting-oranges) |
 ## Binary Tree
 |  |
@@ -418,9 +421,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/lee0721/LeetCode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/lee0721/LeetCode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/lee0721/LeetCode/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/lee0721/LeetCode/tree/master/0743-network-delay-time) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/lee0721/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/lee0721/LeetCode/tree/master/0210-course-schedule-ii) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/lee0721/LeetCode/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
