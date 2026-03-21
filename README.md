@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/lee0721/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/lee0721/LeetCode/tree/master/0994-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/lee0721/LeetCode/tree/master/1046-last-stone-weight) |
+| [1584-min-cost-to-connect-all-points](https://github.com/lee0721/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Hash Table
 |  |
 | ------- |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/lee0721/LeetCode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/lee0721/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/lee0721/LeetCode/tree/master/0695-max-area-of-island) |
+| [1584-min-cost-to-connect-all-points](https://github.com/lee0721/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Graph Theory
 |  |
 | ------- |
@@ -428,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0332-reconstruct-itinerary](https://github.com/lee0721/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [0684-redundant-connection](https://github.com/lee0721/LeetCode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/lee0721/LeetCode/tree/master/0743-network-delay-time) |
+| [1584-min-cost-to-connect-all-points](https://github.com/lee0721/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
 | ------- |
@@ -441,4 +444,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/lee0721/LeetCode/tree/master/0332-reconstruct-itinerary) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/lee0721/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
